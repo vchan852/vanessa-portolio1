@@ -56,20 +56,10 @@ a {
 } */
 
 .flex-container {
-    display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: var ();
     
 }
-
-/* 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-} */
 
 .home {
     display: block;
@@ -110,6 +100,8 @@ img {
 .horiseon {
     width: 100%;
     flex: wrap;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -155,6 +147,7 @@ img {
     .col-12 {width: 100%;}
   }
 
+
 h1 {
     display: flex;
     justify-content: center;
@@ -185,8 +178,13 @@ h3 {
     border-radius: 10px;
     box-shadow: 5px 5px 3px var(--brown);
     margin: 15px 15px ;
+    justify-content: space-around;
 }
 
+.flex-container .aboutme {
+    display: flex;
+    justify-content: space-around;
+}
 
 .overlay {
     position: relative;
@@ -198,6 +196,17 @@ h3 {
     margin: 20px;
 }
 
+.col-7work {
+        padding: 0;
+        margin: 20px;
+        flex: 2 30%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
 .overlay h3 {
     position: absolute;
     bottom: 20px;
@@ -205,10 +214,27 @@ h3 {
     background: var(--linear-gradient-right-bottom);
     width: 100%;
     padding: 10px;
+
 }
 
-.work {
-    margin: 20px;
+.col-3work {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    flex-direction: row;
+    
+}
+
+.placeholder {
+    align-items: center;
+    flex-wrap:nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    width: 100%;
 }
 
 nav ul {
