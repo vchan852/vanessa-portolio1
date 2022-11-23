@@ -1,6 +1,7 @@
 :root {
-    --bright-pink: #ff2172;
-    --pink: #FF70A6;
+    --brown: #956d60;
+    --malt: #C09891;
+    --white: #ffffff;
     --linear-gradient-right-bottom: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(218, 218, 218, 0.9));
 }
 
@@ -22,16 +23,16 @@ ul {
 header {
     padding: 20px;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    background-color: var(--pink);
-    color: #ffffff;
+    background-color: var(--brown);
+    color: --
 }
 
 header nav {
-    padding-top: 15px;
+    padding-top: 30px;
     margin-right: 20px;
     float: right;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-size: 20px;
+    font-size: 30px;
 }
 
 header nav ul {
@@ -58,7 +59,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: #FF70A6;
+    background-color: var ();
     
 }
 
@@ -72,20 +73,20 @@ a {
 
 .home {
     display: block;
-    background-color: #FF70A6;
+    background-color: var(--brown);
     height: max-content;
 }
 
 .aboutme {
     display: block;
-    background-color: #FF9770;
+    background-color: var(--malt);
     height: max-content;
     overflow: hidden;
 }
 
 .mywork {
     display: block;
-    background-color: #FFD670;
+    background-color: #F4DBD8;
     height: max-content;
     overflow: hidden;
 
@@ -93,7 +94,7 @@ a {
 
 .contact {
     display: block;
-    background-color: #E9FF70;
+    background-color: #BEA8A7;
     height: max-content;
 
 }
@@ -160,6 +161,15 @@ h1 {
     padding: 20px 0px 0px;
 }
 
+h2 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 400%;
+    display: inline-block;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
 h3 {
     display: block;
     font-size: 1.17em;
@@ -168,7 +178,15 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: black;
 }
+
+.face {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px var(--brown);
+    margin: 15px 15px ;
+}
+
 
 .overlay {
     position: relative;
@@ -192,3 +210,13 @@ h3 {
 .work {
     margin: 20px;
 }
+
+nav ul {
+        padding-top: 30px;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        font-size: 30px;
+        justify-content: center;
+        display: flex;
+        
+    
+    }
