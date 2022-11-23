@@ -19,3 +19,30 @@ ul {
     
   }
   
+.flex-container {
+    display: flex;
+}
+
+.home {
+    display: block;
+    background-color: #FF70A6;
+    height: 400px;
+}
+
+.aboutme {
+    display: block;
+    background-color: #FF9770;
+    height: 400px;
+}
+
+.mywork {
+    display: block;
+    background-color: #FFD670;
+    height: 400px;
+}
+
+.contact {
+    display: block;
+    background-color: #E9FF70;
+    height: 400px;
+}
