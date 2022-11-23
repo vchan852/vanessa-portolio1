@@ -30,31 +30,35 @@ ul {
 .home {
     display: block;
     background-color: #FF70A6;
-
-    height: 400px;
+    height: max-content;
 }
 
 .aboutme {
     display: block;
     background-color: #FF9770;
     height: 400px;
+    overflow: scroll;
 }
 
 .mywork {
     display: block;
     background-color: #FFD670;
-    height: 400px;
+    height: max-content;
+    overflow: hidden;
+
 }
 
 .contact {
     display: block;
     background-color: #E9FF70;
-    height: 400px;
+    height: max-content;
+
 }
 
 img {
     width: 100%;
     height: auto;
+    min-height: 30px;
 }
 
 .row::after {
@@ -90,5 +94,6 @@ h1 {
 .work {
     background-color: white;
     margin: 10px;
-
+    
 }
+
